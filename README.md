@@ -83,13 +83,125 @@ login(token="YOUR_HF_TOKEN")
 ```
 ---
 ### 📁 Project Structure
-
+```
 📦 LLM-Presentation-Generator
-├─ 📁 templates/              # PowerPoint templates
-├─ 📄 app.py                  # Main FastAPI + Dash app
-├─ 📄 generator.py            # JSON generation logic
-├─ 📄 ppt_builder.py          # PPTX builder
-├─ 📄 README.md               # This README file
-└─ 📄 requirements.txt        # Project dependencies
+├──📁 templates/              # PowerPoint templates
+├──📄 app.py                  # Main FastAPI + Dash app
+├──📄 generator.py            # JSON generation logic
+├──📄 ppt_builder.py          # PPTX builder
+├──📄 README.md               # This README file
+└──📄 requirements.txt        # Project dependencies
+```
+---
+## ✨ How It Works
+⭐ 1. User enters a topic
+
+Example:
+"Explain cyber security for beginners in 10 slides without agenda."
+
+⭐ 2. System classifies the topic
+
+(Tech, Education, Sports, Health, General)
+
+⭐ 3. LLaMA model generates JSON
+
+Contains:
+
+Slide titles
+
+Bullet points
+
+Optional agenda
+
+Length-controlled content
+
+⭐ 4. JSON → PPTX Converter
+
+Slides inserted into templates with:
+
+Clean format
+
+Bullet styling
+
+RTL support
+
+Auto title rendering
+
+⭐ 5. User downloads the PPTX
+
+Download served via FastAPI /download_pptx.
 
 ---
+## 🧠 Model Used
+```
+Meta-LLaMA-3-8B-Instruct
+```
+Loaded with:
+
+torch.float16
+
+device_map="auto"
+
+repetition_penalty=1.15
+
+Context: 10,000 tokens
+
+---
+
+## 🔒 JSON Cleaning & Repairing
+
+Includes:
+
+Unicode cleanup
+
+Trailing comma removal
+
+Duplicate slide filtering
+
+Control character removal
+
+Automatic JSON repair (json_repair)
+
+Enforcing slide count
+
+---
+
+## 🎯 Use Cases
+
+✔ Teachers preparing lessons
+
+✔ HR trainers
+
+✔ Students creating assignments
+
+✔ Businesses preparing reports
+
+✔ Startups building pitch decks
+
+---
+
+## 📥 Example Output
+
+User prompt:
+“Create 12 slides on Digital Marketing. Exclude Thank You slide.”
+
+System returns:
+
+Clean JSON with exactly 12 slides
+
+Structured title/content
+
+No Thank You slide
+
+PPTX ready for download
+
+---
+## 🤝 Contributions
+
+Pull requests, issues, and suggestions are welcome!
+Ideal for anyone working with LLMs, FastAPI, Dash, or automation systems.
+
+---
+## 📜 License
+
+MIT License — Free for personal & commercial use.
