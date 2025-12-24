@@ -94,16 +94,16 @@ login(token="YOUR_HF_TOKEN")
 ```
 ---
 ## ✨ How It Works
-⭐ 1. User enters a topic
+ **⭐ 1. User enters a topic**
 
 Example:
 "Explain cyber security for beginners in 10 slides without agenda."
 
-⭐ 2. System classifies the topic
+**⭐ 2. System classifies the topic**
 
 (Tech, Education, Sports, Health, General)
 
-⭐ 3. LLaMA model generates JSON
+**⭐ 3. LLaMA model generates JSON**
 
 Contains:
 
@@ -115,7 +115,7 @@ Optional agenda
 
 Length-controlled content
 
-⭐ 4. JSON → PPTX Converter
+**⭐ 4. JSON → PPTX Converter**
 
 Slides inserted into templates with:
 
@@ -127,7 +127,7 @@ RTL support
 
 Auto title rendering
 
-⭐ 5. User downloads the PPTX
+**⭐ 5. User downloads the PPTX**
 
 Download served via FastAPI /download_pptx.
 
@@ -196,6 +196,20 @@ No Thank You slide
 PPTX ready for download
 
 ---
+
+## APP Screenshot
+![UI Screenshot](assetss/Untitled.png")
+
+![UI Screenshot](assetss/Untitled4.png")
+
+![UI Screenshot](assetss/Untitled2.png")
+
+![UI Screenshot](assetss/Untitled3.png")
+
+![UI Screenshot](assetss/image5.png")
+
+![UI Screenshot](assetss/image.png")
+
 ## 🤝 Contributions
 
 Pull requests, issues, and suggestions are welcome!
