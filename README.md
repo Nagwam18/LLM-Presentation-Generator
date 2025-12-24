@@ -198,17 +198,17 @@ PPTX ready for download
 ---
 
 ## APP Screenshot
-![UI Screenshot](assetss/Untitled.png")
+![UI Screenshot](LLM-Presentation-Generator/assetss/Untitled.png)
 
-![UI Screenshot](assetss/Untitled4.png")
+![UI Screenshot](LLM-Presentation-Generator/assetss/Untitled4.png)
 
-![UI Screenshot](assetss/Untitled2.png")
+![UI Screenshot](LLM-Presentation-Generator/assetss/Untitled2.png)
 
-![UI Screenshot](assetss/Untitled3.png")
+![UI Screenshot](LLM-Presentation-Generator/assetss/Untitled3.png)
 
-![UI Screenshot](assetss/image5.png")
+![UI Screenshot](LLM-Presentation-Generator/assetss/image5.png)
 
-![UI Screenshot](assetss/image.png")
+![UI Screenshot](LLM-Presentation-Generator/assetss/image.png)
 
 ## 🤝 Contributions
 
