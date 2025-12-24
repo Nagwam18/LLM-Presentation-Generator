@@ -180,6 +180,11 @@ Enforcing slide count
 
 ---
 
+## Demo
+
+Simple link:
+[Watch the demo (Google Drive)](https://drive.google.com/file/d/1OMqn6VIk_LaSU3Bh8xZbDDlYm7QgqxMM/view?usp=sharing)
+
 ## 📥 Example Output
 
 User prompt:
@@ -209,6 +214,7 @@ PPTX ready for download
 ![UI Screenshot](LLM-Presentation-Generator/assetss/image5.png)
 
 ![UI Screenshot](LLM-Presentation-Generator/assetss/image.png)
+
 
 ## 🤝 Contributions
 
