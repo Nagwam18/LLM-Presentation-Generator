@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+flask
+dash
+dash-bootstrap-components
+pyngrok
+python-pptx
+torch
+transformers
+nest-asyncio
+mangum
+json-repair
